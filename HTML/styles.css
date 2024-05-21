@@ -91,7 +91,7 @@ h1 {
    display: block;
    height:300px;
    width:300px;
-   margin-right:250px;
+   margin-right:300px;
   }
 
   hr {
@@ -166,6 +166,16 @@ h1 {
 
  #pathway-left {
    text-align: left;
+ }
+
+ .ctl-logo {
+  display: block;
+  height:300px;
+  width:300px;
+  margin-right:300px;
+
+  
+
  }
 
  
