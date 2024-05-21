@@ -89,8 +89,8 @@ h1 {
 
   .whs-logo {
    display: block;
-   height:300px;
-   width:300px;
+   height:200px;
+   width:200px;
    margin-right:300px;
   }
 
@@ -174,8 +174,19 @@ h1 {
   width:300px;
   margin-right:300px;
 
-  
-
  }
 
+ .iet-logo {
+  display: block;
+  height:300px;
+  width:300px;
+  margin-right:250px;
+ }
  
+ .chs-logo {
+  display: block;
+  height:250px;
+  width:400px;
+  margin-right:250px;
+
+ }
