@@ -1,191 +1,202 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+
+
+
+
+.academics img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px; 
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px; 
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.nav-link {
+    color: white;
+    font-size: 1rem;
+    margin-right: 15px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    max-width: 1200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3, h4 {
+    color: #333;
+    margin-bottom: 20px;
+}
 
 h1 {
-    color:black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 10px;
-   
-    
-    
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
-
-.col-sm-4 {
-    background: lightgreen;
-    color: black;
-    font-size:28px
-    
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
 }
 
+h3 {
+    font-size: 1.5rem;
+}
 
- h2 {
-    margin:50px;
-    text-align: left;
-    margin: 20px;
-    background-color: lightgray;
-    
- }
+h4 {
+    font-size: 1.2rem;
+}
 
- h4 {
-   margin:20px;
-   text-align: left;
-   margin: 20px;
- }
+p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
 
- li {
-    margin:30px;
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
     text-align: center;
- }
+    padding: 50px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
 
- .career-objective{
-    margin:30px;
-    text-align: left;
- }
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
 
- li {
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* Image Styling */
+.img-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#img-yearbook {
+    display: block;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+/* Section Styling */
+.container {
+    margin-top: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.col-sm {
+    flex: 1;
+    padding: 10px;
+}
+
+.career-objective, .skills-centered, .goals-centered {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background-color: #28a745;
+    color: white;
     text-align: center;
- }
+    padding: 20px 0;
+    margin-top: 20px;
+}
 
- p {
-    margin:20px;
+.footer-text {
+    font-size: 1rem;
+}
 
-    font-size: 20px
- }
+/* Buttons */
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
 
- .nav-link {
-   color:black
- }
+button:hover {
+    background-color: #218838;
+}
 
- .navbar-brand {
-   font-weight: bold;
- }
+/* Responsive Design */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
 
-  .name-centered {
-   margin:50px;
-   text-align: center;
-   color: black
-  }
+    .col-sm {
+        margin-bottom: 20px;
+    }
 
+    h1 {
+        font-size: 2rem;
+    }
 
+    h2 {
+        font-size: 1.5rem;
+    }
 
-  main {
-   background-color: whitesmoke;
-   margin:10px;
-  }
-
-  h3 {
-   margin:20px;
-  }
-
-  .yearbook-photo {
-
-   display: block;
-   height: 200px;
-   width: 200px;
-   margin-left: auto;
-   margin-right: auto;
-   
-   
-
-  }
-
-  .whs-logo {
-   display: block;
-   height:200px;
-   width:200px;
-   margin-right:300px;
-  }
-
-  hr {
-   height: 1px;
-   color: #123455;
-   background-color: #123455;
-   border: none;
-  }
-
-  footer {
-   background-color:lightgreen;
-   color: black;
-  }
-
-  .footer-text{
-   font-size: 25px;
-   text-align: center;
-  }
-
-  #img-yearbook {
-   display: block;
-   height: 200px;
-   width: 200px;
-   margin-left: auto;
-   margin-right: auto;
-   float: right;
-  }
-
-  
-
-  .col-sm-2 {
-   font-size: 20px;
-  }
-
-  
-
-  .clearfix::after {
-   content: "";
-   clear: both;
-   display: table;
-
-  }
-
-  .img-container {
-   float: left;
-   width: 33.33%;
-   padding: 5px;
- }
-
- #bold-name {
-   font-size:65px;
-   font-weight:bold;
-   color: black;
- }
-  
-  
- .subHeading {
-   font-size: 100px;
-   position: relative;
-
-
- }
-
- .heading {
-   font-size: 100px;
-   position: relative;
-   transform: translate(2.5%, 0%);
-
- }
-
- #pathway-left {
-   text-align: left;
- }
-
- .ctl-logo {
-  display: block;
-  height:300px;
-  width:300px;
-  margin-right:300px;
-
- }
-
- .iet-logo {
-  display: block;
-  height:300px;
-  width:300px;
-  margin-right:250px;
- }
- 
- .chs-logo {
-  display: block;
-  height:250px;
-  width:400px;
-  margin-right:250px;
-
- }
+    p {
+        font-size: 0.9rem;
+    }
+}
